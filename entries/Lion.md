@@ -1,0 +1,3 @@
+# Lion
+
+The **lion** (***Panthera leo***) is a large cat of the genus *Panthera* native to Africa and India.
