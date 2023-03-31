@@ -5,8 +5,6 @@ from random import choice
 
 from . import util
 
-markdowner = Markdown()
-
 
 def edit(request, entry):
     if request.method == "POST":
@@ -70,6 +68,7 @@ def wiki(request, entry):
             "error": "The requested page was not found."
         })
 
+    markdowner = Markdown()
     entry = util.list_entries()[index]
     return render(request, "encyclopedia/entry.html", {
         "title": entry,
